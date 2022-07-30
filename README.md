@@ -18,6 +18,16 @@ This repository is the official PyTorch implementation of our AAAI-2022 [paper](
     <td><img src="resources/model_b.png" alt="Inference" height="300"></td>
   </tr>
 </table>
+## Installation (by Adam)
+
+```
+conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch-lts
+pip install -r requirements_2080.txt
+conda install -c conda-forge async-timeout=3.0.1 fsspec=0.8.4 llvmlite=0.31.0 numba==0.48.0 python-levenshtein=0.12.0 pytorch-lightning>=0.7.1 pyworld=0.3.0 scikit-image=0.16.2 scikit-learn==0.22.2.post1 webrtcvad==2.0.10 --yes
+pip install Resemblyzer jiwer
+```
+
+## Updates
 
 :tada: :tada: :tada: **Updates**:
  - Jul.27, 2022: Update documents for [SVS](docs/README-SVS.md). Add [easy inference](docs/README-SVS-opencpop-cascade.md#4-inference-from-raw-inputs); Add Interactive SVS running on [HuggingFace🤗 SVS](https://huggingface.co/spaces/Silentlin/DiffSinger).
